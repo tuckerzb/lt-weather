@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0;
+}
+
+.footerContent {
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footerContent a {
+    color: #000;
+}
+
+.footerCopyright {
+    text-align: center;
+    color: #000;
+}

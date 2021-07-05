@@ -1,0 +1,19 @@
+.container {
+	padding: 56px 20px;
+	width: 100%;
+}
+
+.headerBlock {
+	background-color: #Daad86;
+	border-radius: 5px;
+	padding-left: 1rem;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+	padding-right: 1rem;
+
+	margin: 1rem 0;
+}
+
+.headerBlock a {
+	color: black;
+}

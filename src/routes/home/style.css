@@ -1,0 +1,89 @@
+.container {
+	padding: 56px 20px;
+	width: 100%;
+}
+
+.headerBlock {
+	background-color: #Daad86;
+	border-radius: 5px;
+	padding-left: 1rem;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+	padding-right: 1rem;
+
+	margin: 1rem 0;
+}
+
+.headerBlock a {
+	color: black;
+}
+
+.messageBlock {
+	background-color: lightcoral;
+	border-radius: 5px;
+	padding-left: 1rem;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+	padding-right: 1rem;
+	color: #000;
+	font-weight: 700;;
+
+	margin: 1rem 0;
+}
+
+.locationButton {
+	width: auto;
+	font-size: 1rem;
+	background-color: #5CDB95;
+	font-weight: 700;
+	border: 0;
+	border-radius: 5px;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+
+.forecastBlock {
+	background-color: #FBEEC1;
+	border-radius: 5px;
+}
+
+.forecastFor {
+	margin-top: 1rem;
+	background: black;
+	color: white;
+	font-size: 1rem;
+	padding: 5px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.forecastFor a {
+	color: white;
+	font-weight: 700;
+}
+
+.forecastItem {
+	font-weight: 700;
+	margin: 1rem 0;
+	padding-left: 10px;
+}
+
+.forecastItem p {
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+
+.forecastBlock div:nth-child(2n) {
+	background-color: #BC986A;
+	padding: 1rem 10px;
+}
+
+.forecastBlock div:nth-child(2){
+	margin-top: 0;
+	/* padding-top: 0; */
+}
+
+.forecastBlock div:last-child{
+	padding-bottom: 1rem;
+}
