@@ -4,7 +4,8 @@
 }
 
 .headerBlock {
-	background-color: #Daad86;
+	/* background-color: #Daad86; */
+	background-color: #68829E;
 	border-radius: 5px;
 	padding-left: 1rem;
 	padding-bottom: .25rem;
@@ -43,7 +44,8 @@
 }
 
 .forecastBlock {
-	background-color: #FBEEC1;
+	/* background-color: #FBEEC1; */
+	background-color: #AEBD38;
 	border-radius: 5px;
 }
 
@@ -75,7 +77,8 @@
 }
 
 .forecastBlock div:nth-child(2n) {
-	background-color: #BC986A;
+	/* background-color: #BC986A; */
+	background-color: #598234;
 	padding: 1rem 10px;
 }
 
