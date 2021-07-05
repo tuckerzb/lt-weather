@@ -1,4 +1,4 @@
-# cdt-weather
+# lt-weather
 
 ## CLI Commands
 

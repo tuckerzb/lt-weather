@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "cdt-weather",
+  "name": "lt-weather",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
