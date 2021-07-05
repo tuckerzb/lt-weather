@@ -79,6 +79,7 @@
 .forecastBlock div:nth-child(2n) {
 	/* background-color: #BC986A; */
 	background-color: #4D648D;
+	color: #fff;
 	padding: 1rem 10px;
 }
 
