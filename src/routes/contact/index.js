@@ -46,7 +46,7 @@ const Contact = () => {
 		<div class={style.headerBlock}>
 			<h1>Contact</h1>
 			<p>Please use the below form to submit comments, suggestions, and concerns.</p>
-			<p>Please note that Zach is likely on trail, and responses may be delayed.</p>
+			{/* <p>Please note that Zach is likely on trail, and responses may be delayed.</p> */}
 		</div>
 		{response && <div class={style.messageBlock}>{response}</div>}
 		{error && <div class={style.errorBlock}>{error}</div>}
@@ -64,7 +64,7 @@ const Contact = () => {
 				<textarea id='message' value={message} rows={5} onChange={(e) => setMessage(e.target.value)} />
 			</div>
 			<div>
-				<label for='botcheck'><strong>Bot Check: Select the CDT Terminus Country</strong></label>
+				<label for='botcheck'><strong>Bot Check: Select the Long Trail Terminus Country</strong></label>
 				<select value={botCheck} id='botcheck' class={style.botCheck} onChange={(e) => setBotCheck(e.target.value)}>
 					<option value=''>Please Select</option>
 					<option value='costarica'>Costa Rica</option>
