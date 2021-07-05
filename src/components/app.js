@@ -9,7 +9,6 @@ import Home from '../routes/home';
 import About from '../routes/about';
 import Contact from '../routes/contact';
 import Tools from '../routes/tools'
-import Suggest from '../routes/suggest';
 
 const App = () => (
 	<div id="app">
@@ -19,7 +18,6 @@ const App = () => (
 			<About path="/about" />
 			<Contact path="/contact" />
 			<Tools path='/tools' />
-			<Suggest path='/suggest' />
 		</Router>
 		<Footer />
 	</div>
