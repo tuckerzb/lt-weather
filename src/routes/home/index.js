@@ -73,7 +73,7 @@ const Home = () => {
 		setForecastData([]);
 		setSelectValue(e.target.value);
 		if (e.target.value.length == 2 || e.target.value.length == 0) {
-			setError('You have selected one of the state category dividers, please select a landmark instead.');
+			setError('You have selected one of the category dividers, please select a landmark instead.');
 			setLoading(false);
 			return;
 		}
@@ -111,10 +111,10 @@ const Home = () => {
 	
 	return (<div class={style.container}>
 		<div class={style.headerBlock}>
-		<h1>Welcome to CDT Weather</h1>
-		<p>The <a href='https://continentaldividetrail.org/'>Continental Divide Trail</a> is a ~3,100 mile path through the Rocky Mountains and along the Continental Divide. </p>
-		<p>To get the 7-day National Weather Service forecast, click "Get My Location" or select the closest landmark to you from the dropdown. Sometimes we are unable to communicate with the NWS servers for a forecast region, if you receive an error message, please try again later.</p>
-		<p><em>Have a location on the trail that you'd like to see added to the landmarks dropdown?</em> Please suggest it using this form: <Link href="/suggest">Suggest a Landmark</Link></p>
+		<h1>Welcome to Long Trail Weather</h1>
+		<p>The <a href='https://www.greenmountainclub.org/the-long-trail/'>Long Trail</a> is a 272 mile path along the main ridge of Vermont's Green Mountains between the Massachusetts and Canadian borders. </p>
+		<p>To get the 7-day National Weather Service forecast, click "Get My Location" or select the closest shelter to you from the dropdown. Sometimes we are unable to communicate with the NWS servers for a forecast region, if you receive an error message, please try again later.</p>
+		{/* <p><em>Have a location on the trail that you'd like to see added to the landmarks dropdown?</em> Please suggest it using this form: <Link href="/suggest">Suggest a Landmark</Link></p> */}
 		<p><strong>Disclaimer:</strong> Please note that the information is provided "as-is" from the National Weather Service and no warranty is made as to its accuracy.</p>
 		</div>
 		<button class={style.locationButton} onClick={getLocationHandler}>Get My Location</button> <strong>OR</strong>{' '}
