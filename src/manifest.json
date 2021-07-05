@@ -1,6 +1,6 @@
 {
-  "name": "cdt-weather",
-  "short_name": "cdt-weather",
+  "name": "lt-weather",
+  "short_name": "lt-weather",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

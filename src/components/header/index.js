@@ -4,7 +4,7 @@ import style from './style.css';
 
 const Header = () => (
 	<header class={style.header}>
-		<h1>CDT Weather</h1>
+		<h1>Long Trail Weather</h1>
 		<nav>
 			<Link activeClassName={style.active} href="/">Home</Link>
 			<Link activeClassName={style.active} href="/about">About</Link>
