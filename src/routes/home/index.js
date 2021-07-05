@@ -119,7 +119,7 @@ const Home = () => {
 		</div>
 		<button class={style.locationButton} onClick={getLocationHandler}>Get My Location</button> <strong>OR</strong>{' '}
 		<select value={selectValue} name='landmark' id='landmark' onChange={getForecastFromLandmark}>
-			<option value="">-- Select a Landmark --</option>
+			<option value="">-- Select a Shelter --</option>
 			<option value='ALY,78,67,42.772041,-73.136932'>Seth Warner Shelter</option>
 			<option value='ALY,78,70,42.848034,-73.110031'>Congdon Shelter</option>
 			<option value='ALY,78,72,42.887779,-73.095505'>Melville Nauheim Shelter</option>
