@@ -116,6 +116,7 @@ const Home = () => {
 		<p>To get the 7-day National Weather Service forecast, click "Get My Location" or select the closest shelter to you from the dropdown. Sometimes we are unable to communicate with the NWS servers for a forecast region, if you receive an error message, please try again later.</p>
 		{/* <p><em>Have a location on the trail that you'd like to see added to the landmarks dropdown?</em> Please suggest it using this form: <Link href="/suggest">Suggest a Landmark</Link></p> */}
 		<p><strong>Disclaimer:</strong> Please note that the information is provided "as-is" from the National Weather Service and no warranty is made as to its accuracy.</p>
+		<p><em>Find this website useful? Please considering supporting the Developer. <Link href="/about">Learn How!</Link></em></p>
 		</div>
 		<button class={style.locationButton} onClick={getLocationHandler}>Get My Location</button> <strong>OR</strong>{' '}
 		<select value={selectValue} name='landmark' id='landmark' onChange={getForecastFromLandmark}>
